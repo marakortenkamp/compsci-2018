@@ -3,7 +3,7 @@ import numpy as np
 def create_laplacian_2d(nx, ny, lx, ly, pbc=True):
     """Creates a discretized Laplacian in 2D
         
-        Arguments:
+    Arguments:
         nx (int): number of grid points along x
         ny (int): number of grid points along y; nx*ny must be greater than one
         lx (float): box length along x; must be positive
