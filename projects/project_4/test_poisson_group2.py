@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from poisson import create_laplacian_2d
+from .poisson_group2 import create_laplacian_2d
 
 
 def test_laplacian_2d():

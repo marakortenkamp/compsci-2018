@@ -17,7 +17,7 @@ def create_laplacian_2d(nx, ny, lx, ly, pbc=True):
     if pbc not in (True, False):
         raise TypeError('We need a boolean as pbc')
 
-    n = nx*ny # total number of grid points
+    n = nx * ny # total number of grid points
     laplacian = np.zeros((n, n))
 
     h = (nx/lx)**2
